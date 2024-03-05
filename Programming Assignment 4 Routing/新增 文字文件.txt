@@ -1,0 +1,6 @@
+1. 新DS，Interval + track_loc
+2. 63533的pin DS可繼續用，只是將adjecent graph拆開
+3. 將新DS取代pin中的Interval
+4. 做alg時，若interval的pinNum相等，則waternumber可相等
+4. 做完alg後，排序pin中的新DS，
+5. 若某interval之right=另一interval之left，則輸出一次就好
