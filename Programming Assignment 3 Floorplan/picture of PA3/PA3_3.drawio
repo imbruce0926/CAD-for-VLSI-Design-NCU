@@ -1,0 +1,117 @@
+<mxfile host="app.diagrams.net" modified="2023-05-11T14:34:46.175Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="dOYFOXXZmIbg_SwUsD90" version="21.1.8" type="device">
+  <diagram name="第 1 页" id="ZXI1Qxku5BqPixiUoA8e">
+    <mxGraphModel dx="977" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lymI0PidUAhC5lXP6jQe-1" value="End" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="585" y="215" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lymI0PidUAhC5lXP6jQe-2" target="lymI0PidUAhC5lXP6jQe-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-2" value="Start" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lymI0PidUAhC5lXP6jQe-3" target="lymI0PidUAhC5lXP6jQe-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-3" value="Calculate current cost" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="90" y="40" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lymI0PidUAhC5lXP6jQe-4" target="lymI0PidUAhC5lXP6jQe-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-4" value="Randomly choose a move" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="210" y="40" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lymI0PidUAhC5lXP6jQe-6" target="lymI0PidUAhC5lXP6jQe-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-6" value="Calculate new cost" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="449" y="40" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="139.71" as="sourcePoint" />
+            <mxPoint x="529" y="139.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lymI0PidUAhC5lXP6jQe-40" target="lymI0PidUAhC5lXP6jQe-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-31" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lymI0PidUAhC5lXP6jQe-24">
+          <mxGeometry x="-0.4211" relative="1" as="geometry">
+            <mxPoint x="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lymI0PidUAhC5lXP6jQe-40" target="lymI0PidUAhC5lXP6jQe-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="165" as="sourcePoint" />
+            <mxPoint x="440" y="205" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-30" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lymI0PidUAhC5lXP6jQe-25">
+          <mxGeometry x="-0.2952" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lymI0PidUAhC5lXP6jQe-10" target="lymI0PidUAhC5lXP6jQe-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-47" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lymI0PidUAhC5lXP6jQe-46">
+          <mxGeometry x="-0.1657" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-10" value="new cost &amp;lt; best case" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="240" y="110" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lymI0PidUAhC5lXP6jQe-16" target="lymI0PidUAhC5lXP6jQe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-16" value="Move 1, 2 or 3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="330" y="40" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lymI0PidUAhC5lXP6jQe-33" target="lymI0PidUAhC5lXP6jQe-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-33" value="Undo the move&lt;br&gt;reject + 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="449" y="205" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lymI0PidUAhC5lXP6jQe-38" target="lymI0PidUAhC5lXP6jQe-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-38" value="MoveCount + 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="570" y="40" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-39" value="Calculate probablity and delta cost" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="570" y="115" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-40" value="Moveable" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="459" y="115" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lymI0PidUAhC5lXP6jQe-42" target="lymI0PidUAhC5lXP6jQe-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-42" value="Update best cost &amp;amp; polish expression" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="90" y="115" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lymI0PidUAhC5lXP6jQe-44" target="lymI0PidUAhC5lXP6jQe-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="135" y="265" />
+              <mxPoint x="615" y="265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lymI0PidUAhC5lXP6jQe-44" value="Write file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="90" y="205" width="90" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
