@@ -1,0 +1,27 @@
+soft module
+1. label
+2. name
+3. area
+4. Size(w, h) 預設長寬
+5. Size(w', h') 實際長寬
+6. XX bits
+7. vector<coor>(x, y) corner coordinate
+
+
+1. parser
+2. 建立grid填入fixed-module
+
+3. while(!成功)
+	產生順序X;
+	if(往左或往下找可行解)
+		if(若可行解的矩形切到fixed-module)
+			更新contour;
+		else
+			更新contour;
+	else if(若找不到){
+		for(X軸)
+   			for(不同aspect)
+	}
+
+4. 算出HPWL
+
